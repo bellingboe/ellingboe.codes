@@ -1,0 +1,166 @@
+html, body {
+	font-family: 'Nunito', sans-serif;
+	padding:0;
+	margin:0;
+	font-weight: 400;
+}
+
+.hello {
+	background: #FF7000;
+	color: white;
+	font-weight: 900;
+	padding: 10px;
+	margin: 0;
+	padding-top: 45px;
+	display: inline-block;
+	font-size: 23px;
+	margin-top: 35px;
+}
+.body-wrapper {
+	margin: 0 auto;
+	max-width: 1000px;
+	padding: 0 110px 50px;
+}
+.orange {
+	color: #ff7000;
+}
+.header h1 {
+	margin-bottom: 0;
+}
+.header h2 {
+	margin-top: 0;
+	font-weight: 400;
+}
+.header h1 span.orange {
+	font-style: italic;
+}
+a, a:link, a:visited {
+	color: #0091FF;
+	text-decoration: none;
+	font-weight: 600;
+}
+a:active, a:hover {
+	text-decoration: underline;
+}
+
+.cell-link a, .cell-link a:link, .cell-link a:visited, .cell-link a:hover {
+	background-color: #FF7000;
+	text-decoration: none;
+	font-weight: 600;
+	padding:10px;
+	text-align:center;
+	display: block;
+	color:white;
+	border: 1px solid #FF7000;
+	text-shadow: 0px 1px 2px #232323c7;
+}
+
+.cell-link a:active {
+	box-shadow: inset 0 0 4px 0 rgba(0, 0, 0, 0.4), inset 0 4px 8px 0 rgba(0, 0, 0, 0.4);
+}
+
+.cell-link a.blue {
+	background-color: #0091FF;
+	border: 1px solid #0091FF;
+}
+
+.content-wrapper {
+	width:100%;
+	display: flex;
+	flex-wrap: wrap;
+	padding: 0;
+	justify-content: space-between;
+}
+.content-wrapper .cell-wrapper {
+	width: calc(50% - 10px);
+	padding: 20px 0;
+	display: flex;
+	flex-direction: column;
+}
+.content-wrapper .cell-wrapper-sm {
+	width: calc(25% - 10px);
+	padding: 20px 0;
+	display: flex;
+	flex-direction: column;
+	padding-top: 0;
+}
+.cell-wrapper p {
+	margin-top: auto;
+}
+.cell-link {
+	margin-top: auto;
+}
+footer {
+	clear: both;
+	text-align: center;
+	opacity: 0.5;
+	font-weight: 400;
+	border-top: 1px solid gray;
+	padding: 25px;
+	background: #eee;
+}
+.header-links {
+	margin-bottom: 0;
+}
+.content-wrapper.projects .cell-header {
+	margin-top: 0;
+}
+
+.job-cell p {
+	padding-top: 0;
+	margin-top: 0;
+}
+.job-cell h4 {
+	margin-bottom: 0;
+}
+
+.cell-buttons {
+	display:flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.cell-buttons a {
+	width: 100%;
+}
+
+@media all and (max-width:800px)
+{
+	.body-wrapper {
+		margin: 0 20px;
+		padding: 0;
+	}
+	.hello {
+		left :20px;
+	}
+	
+	.content-wrapper {
+		flex-direction: row;
+	}
+	
+	.content-wrapper .cell-wrapper {
+		width: 100%;
+		margin-left: 0;
+		margin-right: 0;
+	}
+}
+
+@media all and (min-width:800px)
+{
+	.cell-buttons a {
+		width: 41%;
+	}
+}
+
+@media all and (min-width:1000px)
+{
+	.cell-buttons a {
+		width: 44%;
+	}
+}
+@media all and (min-width:1150px)
+{
+	.cell-buttons a {
+		width: 45%;
+	}
+}
