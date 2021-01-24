@@ -3,10 +3,15 @@ html, body {
 	padding:0;
 	margin:0;
 	font-weight: 400;
+	color: rgb(58,68,96);
+}
+
+.underline, a.underline, a.underline:link {
+	text-decoration: underline;
 }
 
 .hello {
-	background: #FF7000;
+	background: rgb(238,142,128);
 	color: white;
 	font-weight: 900;
 	padding: 10px;
@@ -22,7 +27,7 @@ html, body {
 	padding: 0 110px 50px;
 }
 .orange {
-	color: #ff7000;
+	color: rgb(238,142,128);
 }
 .header h1 {
 	margin-bottom: 0;
@@ -35,7 +40,7 @@ html, body {
 	font-style: italic;
 }
 a, a:link, a:visited {
-	color: #0091FF;
+	color: rgb(58,68,96);
 	text-decoration: none;
 	font-weight: 600;
 }
@@ -44,14 +49,14 @@ a:active, a:hover {
 }
 
 .cell-link a, .cell-link a:link, .cell-link a:visited, .cell-link a:hover {
-	background-color: #FF7000;
+	background-color: rgb(238,142,128);
 	text-decoration: none;
 	font-weight: 600;
 	padding:10px;
 	text-align:center;
 	display: block;
 	color:white;
-	border: 1px solid #FF7000;
+	border: 1px solid rgb(238,142,128);
 	text-shadow: 0px 1px 2px #232323c7;
 }
 
@@ -60,8 +65,8 @@ a:active, a:hover {
 }
 
 .cell-link a.blue {
-	background-color: #0091FF;
-	border: 1px solid #0091FF;
+	background-color: rgb(58,68,96);
+	border: 1px solid rgb(58,68,96);
 }
 
 .content-wrapper {
